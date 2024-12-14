@@ -1,0 +1,64 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    
+    background: hsl(47, 88%, 63%);
+    font-size: 16px;
+    padding: 10%;
+    padding-right: 30%;
+    padding-left: 30%; 
+    
+    
+}
+.img {
+    border-radius:  70px;
+    width:auto;
+    height:auto;
+}
+.grid-container {
+    width:auto ;
+    height:auto;
+    display: grid;
+    border-radius:  20px;
+    padding: 10%;
+    background-color: #fcfcfc;
+    box-shadow: 10px 5px 5px #000 ;
+    
+}
+button {
+    color: #000;
+    font-weight: bold;
+    background-color: hsl(47, 88%, 63%);
+    font-size: large;
+    padding: 10px ;
+    width: 100px;
+    border-radius:  10px;
+    margin:10px;
+}
+p{
+    size:16px;
+    display: block;
+}
+#date {
+   font-family : "Figtree";
+   
+}
+#title{
+    font-weight: bold;
+}
+#description{
+    color: #787876;
+}
+#creator{
+    font-weight: bold;
+}
+#picture {
+    border-radius: 70px;
+}
+#colorImage {
+    border-radius: 30px;
+}
+#line p , #line img {
+    display : inline-block;
+    width:auto;
+}
